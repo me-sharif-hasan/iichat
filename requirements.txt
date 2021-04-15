@@ -1,4 +1,4 @@
 flask_cors
 flask_ngrok
 typing
-parlai
+ransformers
