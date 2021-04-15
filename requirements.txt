@@ -2,4 +2,4 @@ flask_cors
 flask_ngrok
 typing
 transformers
-parlai==0.9.1
+parlai
