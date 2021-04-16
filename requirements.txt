@@ -2,4 +2,3 @@ flask_cors
 flask_ngrok
 typing
 transformers
-https://files.pythonhosted.org/packages/82/ae/bea34f20a29c87effc2b74545cecb52fc141fdf5e1143ba1f2b47f4a6c14/parl-1.1-py2.py3-none-any.whl
