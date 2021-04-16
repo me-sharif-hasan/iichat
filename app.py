@@ -38,7 +38,8 @@ class WebDemoEnv(BaseEnv):
                  _out = model.predict(model_input)
                  self.add_bot_message(user_id,_out['output'])
              return {"output": _out['output']}
-         self.app.run() 
+         if __name__=='__main__':
+             self.app.run() 
 
 from openchat import OpenChat
 OpenChat(model="blender.small", env=WebDemoEnv(),device='cpu',environment="webserver")
